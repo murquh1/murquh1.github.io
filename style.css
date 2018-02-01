@@ -11,8 +11,9 @@ body { background-color: mintcream; }
   color: #00310a;
   font-size: x-large;
   font-family: Garamond;
+  text-align: center;
 }
 
-
 footer { font-size: small;
+  text-align: center;
 }
