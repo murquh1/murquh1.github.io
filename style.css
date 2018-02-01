@@ -1,13 +1,18 @@
 header { text-align: center;
-font-family: Garamond;
+font-family: Garamond, serif;
+color: #00310a;
 }
+
+.subtitle { color: #376942; }
 
 body { background-color: mintcream; }
 
-p {
-  font-size: large;
+#assignments {
+  color: #00310a;
+  font-size: x-large;
   font-family: Garamond;
 }
+
 
 footer { font-size: small;
 }
