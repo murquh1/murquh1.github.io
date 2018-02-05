@@ -1,11 +1,16 @@
 header { text-align: center;
-font-family: Garamond, serif;
-color: #00310a;
+  font-family: Garamond, serif;
+  color: #00310a;
+  background-color: #CDFFC3;
+  padding: 10px;
 }
 
 .subtitle { color: #376942; }
 
-body { background-color: mintcream; }
+body { background-color: mintcream;
+  margin-left: 500px;
+  margin-right: 500px;
+}
 
 #assignments {
   color: #00310a;
@@ -14,6 +19,11 @@ body { background-color: mintcream; }
   text-align: center;
 }
 
+a { color: darkgreen;
+}
+
 footer { font-size: small;
   text-align: center;
+  font-family: Arial, sans-serif;
+  color: #00310a
 }
