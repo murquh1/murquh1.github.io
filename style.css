@@ -8,13 +8,20 @@ header { text-align: center;
 .subtitle { color: #376942; }
 
 body { background-color: mintcream;
-  margin-left: 500px;
-  margin-right: 500px;
+  background-position: 0% 25%;
+	background-attachment: fixed;
+  width:800px;
+  margin:auto;
 }
 
-#assignments {
-  color: #00310a;
-  font-size: x-large;
+#projects { color: #00310a;
+  font-size: 2em;
+  font-family: Garamond, serif;
+  text-align: center;
+}
+
+#assignments { color: #00310a;
+  font-size: 1.5em;
   font-family: Garamond;
   text-align: center;
 }
@@ -25,5 +32,8 @@ a { color: darkgreen;
 footer { font-size: small;
   text-align: center;
   font-family: Arial, sans-serif;
-  color: #00310a
+  color: #00310a;
+}
+
+#globe { padding: 15px;
 }
