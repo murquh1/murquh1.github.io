@@ -1,16 +1,21 @@
 header { text-align: center;
   font-family: Garamond, serif;
-  color: #00310a;
   background-color: #CDFFC3;
-  padding: 10px;
+  padding: 5px;
+  border-style: dashed;
+  border-color: #00310a;
 }
 
-.subtitle { color: #376942; }
+.title { color: #00310a;
+}
+
+.subtitle { color: #376942;
+}
 
 body { background-color: mintcream;
   background-position: 0% 25%;
 	background-attachment: fixed;
-  width:800px;
+  width:1080px;
   margin:auto;
 }
 
