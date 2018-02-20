@@ -17,6 +17,7 @@ body { background-color: mintcream;
 	background-attachment: fixed;
   width:900px;
   margin:auto;
+  cursor: pointer;
 }
 
 #projects { color: #00310a;
