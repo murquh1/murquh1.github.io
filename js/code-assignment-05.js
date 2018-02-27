@@ -1,6 +1,7 @@
 let project1 = {
   id: 1,
   url: 'http://arcg.is/2GhrICS',
+  ssurl: 'https://i.imgur.com/NBXd25W.jpg',
   title: 'Las Vegas Tour',
   desc: 'Map of very famous Las Vegas locations',
   thumb: true,
@@ -15,6 +16,7 @@ let project1 = {
 let project2 = {
   id: 2,
   url: 'https://arcg.is/14qj9v',
+  ssurl: 'https://i.imgur.com/VEj5LM0.png',
   title: 'Past Day Earthquakes',
   desc: 'Map showing all earthquakes within the past 24 hours greater than 2.5 magnitude',
   thumb: true,
@@ -35,6 +37,6 @@ for (let i = 0; i < projects.length; i++) {
   console.log('Project ' + projects[i].id + ' URL: ' + projects[i].url)
   console.log('Project ' + projects[i].id + ' description: ' + projects[i].desc)
     if (projects[i].thumb === true) {
-      console.log('Project ' + projects[i].id + ' thumbnail:' + ' images/ss-project-' + projects[i].id + '.png')
+      console.log('Project ' + projects[i].id + ' thumbnail: ' + projects[i].ssurl)
   }
 }
