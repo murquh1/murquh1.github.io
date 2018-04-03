@@ -1,29 +1,44 @@
-function map1 () {
-  // create a map object
-  let mymap = L.map('map1').setView([51.505, -0.09], 13)
+function coolmap () {
+  let mymap = L.map('coolmap').setView([27.98, 86.92], 5)
 
-  // create basemap layer
-  L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_nolabels/{z}/{x}/{y}.png').addTo(mymap)
+  L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png').addTo(mymap)
 
-  // place a marker feature at a location
-  let marker = L.marker([51.5, -0.09]).addTo(mymap)
+  let marker = L.marker([27.98, 86.92]).addTo(mymap)
 
-  // draw a shape feature with vertices at the specified coordinates
-  let polygon = L.polygon([
-    [51.509, -0.08],
-    [51.503, -0.06],
-    [51.51, -0.047]
-  ]).addTo(mymap)
+  let polylat = [
+    [32.50, 76.50],
+    [30.25, 78.00],
+    [28.0, 83.00],
+    [26.75, 89.00],
+    [27.25, 94.00],
+    [28.50, 96.00],
+    [29.50, 95.00],
+    [28.00, 93.00],
+    [28.00, 88.00],
+    [28.50, 85.00],
+    [29.50, 83.00],
+    [30.50, 80.00],
+  ];
+  let polygon = L.polygon(polylat, {color: 'orange'}).addTo(mymap)
 
-  // add popups to the features drawn on the map
-  polygon.bindPopup('St. Katharine\'s and Wapping')
-  marker.bindPopup('London Bridge Station')
+  polygon.bindPopup('Himalayas mountain range')
+  marker.bindPopup('Mt. Everest')
 
-  // create an even listener that logs the locations of map clicks
   mymap.on('click', function (event) {
     console.log('You clicked the map at ' + event.latlng)
   })
 
-  // TO COMPLETE: create a line feature
+  let latlngs = [
+    [31.75, 77.25],
+    [30.00, 80.00],
+    [28.75, 83.00],
+    [27.75, 86.00],
+    [27.25, 89.00],
+    [27.50, 91.00],
+    [27.50, 93.00],
+    [28.75, 95.25],
+  ];
+  let polyline = L.polyline(latlngs, {color: 'red'}).addTo(mymap)
+
 }
-map1()
+coolmap()
