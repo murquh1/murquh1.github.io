@@ -1,13 +1,16 @@
-#coolmap4 {
-  height: 800px;
-}
 #coolmap3 {
   height: 800px;
 }
+
+#coolmap4 {
+  height: 800px;
+}
+
 .center {
   text-align: center;
   font-family: Garamond, serif;
 }
+
 body {
   background-color: mintcream;
 }
