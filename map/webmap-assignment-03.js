@@ -1,16 +1,16 @@
-function coolmap () {
-  let mymap = L.map('coolmap').setView([27.98, 86.92], 5)
+function coolmap3 () {
+  let mymap = L.map('coolmap3').setView([27.98, 86.92], 5)
 
   L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png').addTo(mymap)
 
   let myMountain = L.icon({
   iconUrl: 'mountain2.png',
   shadowUrl: 'mountainshadow.png',
-  iconSize: [40, 50], // size of the icon
-  shadowSize: [45, 55], // size of the shadow
-  iconAnchor: [20, 30], // point of the icon which will correspond to marker's location
-  shadowAnchor: [22, 28],  // the same for the shadow
-  popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+  iconSize: [40, 50],
+  shadowSize: [45, 55],
+  iconAnchor: [20, 30],
+  shadowAnchor: [22, 28],
+  popupAnchor: [0, 0]
   })
 
   let marker = L.marker([27.98, 86.92], {icon: myMountain}).addTo(mymap)
@@ -55,4 +55,4 @@ function coolmap () {
   let polyline = L.polyline(latlngs, {color: 'purple'}).addTo(mymap)
 
 }
-coolmap()
+coolmap3()
