@@ -1,14 +1,22 @@
 #coloradoMap {
-  height: 875px;
+  height: 800px;
 }
 
-.center {
-  text-align: center;
-  font-family: Trebuchet MS, sans-serif;
-  color: mintcream;
-  font-size: 25px;
+#banner img {
+  display: block;
+  font-size: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 body {
   background-color: black;
 }
+
+footer { font-size: small;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: mintcream;}
+
+#globe { padding: 5px;}
