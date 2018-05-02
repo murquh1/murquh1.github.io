@@ -1,5 +1,5 @@
 function coloradoMap () {
-  let mainMap = L.map('coloradoMap').setView([39, -106], 7)
+  let mainMap = L.map('coloradoMap').setView([39, -106], 8)
 
   let MattBase1 = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png')
   let MattBase3 = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png').addTo(mainMap)
