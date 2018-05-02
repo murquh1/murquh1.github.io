@@ -1,37 +1,70 @@
-header { text-align: center;
+header {
+  text-align: center;
   font-family: Garamond, serif;
   background-color: #CDFFC3;
   padding: 5px;
   border-style: dashed;
-  border-color: #00310a;}
-
-.title { color: #00310a;}
-
-.subtitle { color: #376942;
+  border-color: #00310a;
 }
 
-body { background-color: mintcream;
+.title {
+  color: #00310a;
+}
+
+.subtitle {
+  color: #376942;
+}
+
+body {
+  background-color: mintcream;
   background-position: 0% 25%;
 	background-attachment: fixed;
   width:900px;
   margin:auto;
-  cursor: pointer;}
+  cursor: pointer;
+}
 
-#projects { color: #00310a;
-  font-size: 2em;
+#projects {
+  color: #00310a;
+  font-size: 30pt;
   font-family: Garamond, serif;
-  text-align: center;}
+  font-weight: bold;
+  text-align: center;
+}
 
-#assignments { color: #00310a;
+.column {
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  padding-bottom: 25px;
+  flex: 50%;
+}
+
+.assignments {
+  display: flex;
+  color: #00310a;
   font-size: 1.5em;
   font-family: Garamond;
-  text-align: center;}
+  text-align: center;
+}
 
-a { color: darkgreen;}
+.projectlabel {
+  font-weight: bold;
+  font-size: 20pt;
+}
 
-footer { font-size: small;
+a {
+  color: darkgreen;
+}
+
+footer {
+  font-size: small;
   text-align: center;
   font-family: Arial, sans-serif;
-  color: #00310a;}
+  color: #00310a;
+}
 
-#globe { padding: 15px;}
+#globe {
+  padding: 15px;
+}
