@@ -1,0 +1,2 @@
+let coPeaks =
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Mt. Elbert","height":14440,"prominence":9093},"geometry":{"type":"Point","coordinates":[-106.4454,39.1178]}},{"type":"Feature","properties":{"name":"Mt. Massive","height":14428,"prominence":1961},"geometry":{"type":"Point","coordinates":[-106.4757,39.1875]}},{"type":"Feature","properties":{"name":"Mt. Harvard","height":14421,"prominence":2360},"geometry":{"type":"Point","coordinates":[-106.3207,38.9244]}}]}
