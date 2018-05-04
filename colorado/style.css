@@ -1,5 +1,8 @@
 #coloradoMap {
-  height: 800px;
+  height: 700px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #banner img {
@@ -8,6 +11,15 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+#legend img {
+  display: block;
+  font-size: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 8px;
 }
 
 body {

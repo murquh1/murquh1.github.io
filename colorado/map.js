@@ -14,8 +14,9 @@ function coloradoMap () {
   function circleStyle (feature) {
     let mountHeight = feature.properties.height
     let symbolColor = '#ff1900'
-    if (mountHeight < 14400) { symbolColor = '#ff7b00' }
-    if (mountHeight < 14300) { symbolColor = '#ffe500'}
+    if (mountHeight < 14400) { symbolColor = '#ff9e16' }
+    if (mountHeight < 14300) { symbolColor = '#ffff00'}
+    if (mountHeight < 14200) { symbolColor = '#7cdd75'}
     let circleStyle = {
       color: symbolColor,
       radius: 4,
