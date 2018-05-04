@@ -15,8 +15,8 @@ function coloradoMap () {
     let mountHeight = feature.properties.height
     let symbolColor = '#ff1900'
     if (mountHeight < 14400) { symbolColor = '#ff9e16' }
-    if (mountHeight < 14300) { symbolColor = '#ffff00'}
-    if (mountHeight < 14200) { symbolColor = '#7cdd75'}
+    if (mountHeight < 14250) { symbolColor = '#ffff00'}
+    if (mountHeight < 14100) { symbolColor = '#7cdd75'}
     let circleStyle = {
       color: symbolColor,
       radius: 4,
@@ -43,7 +43,7 @@ function coloradoMap () {
   }
 
   L.control.layers(MattBasemaps).addTo(mainMap)
-  L.geoJSON(coPeaksThree, layerSettings).addTo(mainMap)
+  L.geoJSON(coPeaksFour, layerSettings).addTo(mainMap)
 }
 
 coloradoMap()
