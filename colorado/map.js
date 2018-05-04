@@ -43,7 +43,7 @@ function coloradoMap () {
   }
 
   L.control.layers(MattBasemaps).addTo(mainMap)
-  L.geoJSON(coPeaksFour, layerSettings).addTo(mainMap)
+  L.geoJSON(coPeaksThree, layerSettings).addTo(mainMap)
 }
 
 coloradoMap()
